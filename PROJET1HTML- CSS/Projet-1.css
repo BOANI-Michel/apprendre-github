@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    background-color: #1f3a32;
+    font-family: general-sans, sans-serif;
+}
+.hero{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40px;
+    text-align: center;
+}
+.pa{
+    text-align: center;
+    margin: auto;
+}
+.hero h1{
+    font-size: 72px;
+    font-weight: 700;
+    color: #8fe0c4;
+    /* line-height: 1.05; */
+} 
+.hero .name{
+    font-weight: 800;
+}
+nav{
+    background-color:  hsl(180, 1%, 28%);
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+/* Style pour les éléments de la barre de navigation */
+li a {
+    color: rgb(212, 213, 214);
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+    justify-content: center;
+    align-items: center;
+}
+/* Style pour les éléments de la liste */
+ul li{
+    display: inline-block;
+    margin: 0 15px;
+}
+/* Style pour les liens de la barre de navigation au survol */
+li a:hover{
+    color: turquoise;
+}
+.inprogress{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40px;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 700;
+    color: #8fe0c4; 
+}
+.pb{
+    text-align: center;
+    margin-top: 60px;
+}
+.table{
+    justify-content: end;
+}
